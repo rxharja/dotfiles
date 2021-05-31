@@ -1,0 +1,48 @@
+{
+	"analytics-uuid": "204210d4-693d-404a-b9d8-38bad40e1517",
+	"motd": {
+		"minVersion": "3.0.5",
+		"fetched": 1585007716961
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112641020592910823473",
+		"email": "redon.xharja@gmail.com",
+		"email_verified": true,
+		"at_hash": "n6qd_BUnO1wbSpHOi90Q_A",
+		"iat": 1585007745,
+		"exp": 1585011345
+	},
+	"tokens": {
+		"expires_at": 1585011390009,
+		"refresh_token": "1//03l0A39OEOzadCgYIARAAGAMSNwF-L9IriBYd7D3ZwT-hVkJY5dVnxhitE49eCrljxNcP-IoWX3ZauEUiovvccuClMDkIQHNKhvU",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0Adw1xeXof4ak0jaqGWkaaEu9FPkfSA8tke7IBGuBeHCLzgfF5dQFN4FWf4HWoWjt_wAC5qk7w_hWFsChvBR_q1Vq1AyEhkG9b0E-wnZTqkj4dzc1nst9AITiYG9uFxKhyp9Ac8Av9J7p-IiY_P9cH_EZYPw8ZoFkXxknVqzYyCE",
+		"expires_in": 3599,
+		"scope": "openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjUzYzY2YWFiNTBjZmRkOTFhMTQzNTBhNjY0ODJkYjM4MDBjODNjNjMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyNjQxMDIwNTkyOTEwODIzNDczIiwiZW1haWwiOiJyZWRvbi54aGFyamFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJSOXZvZWNVc0ltZGFEOWNhQkthdW93IiwiaWF0IjoxNTg1MDA3NzkwLCJleHAiOjE1ODUwMTEzOTB9.HVtQub2UJ_E__rdVCk4YQGoaf08d-PoG8aExwHBGh-fUHJX6ixH51-X4fZQZxlIU2s-IBvrls62eSwIiI8oYa2etqIU2wZfc4Ioz1S2-EpGDr2N8TcTYl6CM0lZBrKCIkdyTClvYLFE653uvXPa6FtIJA_i9R-ByVxg7AMsBi3k0TO3R2ljh0EyFhVWO7INuhIMcw9fpPKb38kQcGC-_mkNEaiRL8ZsE0Y1-277VCONlqbgV0Llsfbtpl5yRKGHIgUiSTdVZSe589ilXk5xwD_qo4xEe5P-HUgqER0AQSCRG3U0LewthTWJxKd1y-g-XUPmtbSHPH_1v4LNKoONqkA"
+	},
+	"activeProjects": {
+		"/Users/redonxharja/Documents/Projects/python/forum": "softdev-colmanage-recforum"
+	},
+	"webconfig": {
+		"softdev-colmanage-recforum": {
+			"projectId": "softdev-colmanage-recforum",
+			"databaseURL": "https://softdev-colmanage-recforum.firebaseio.com",
+			"storageBucket": "softdev-colmanage-recforum.appspot.com",
+			"apiKey": "AIzaSyBTO2yveh6pQ4r4QsSZLjBPjeoP1q4PKg0",
+			"authDomain": "softdev-colmanage-recforum.firebaseapp.com",
+			"messagingSenderId": "206624081824"
+		}
+	}
+}
