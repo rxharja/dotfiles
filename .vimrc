@@ -1,23 +1,14 @@
-" Brief help
-" :PluginList          - list configured plugins
-" :PluginInstall(!)    - install (update) plugins
-" :PluginSearch(!) foo - search (or refresh cache first) for foo
-" :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-set nocompatible              
-filetype off                  
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'itchyny/lightline.vim'
-Bundle 'https://github.com/etdev/vim-hexcolor.git'
-call vundle#end()            
-filetype plugin indent on    
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/vim-easy-align'
+Plug 'itchyny/lightline.vim'
+Plug 'https://github.com/tpope/vim-surround.git'
+Plug 'https://github.com/etdev/vim-hexcolor.git'
+call plug#end()
 
 " lightline config
 set laststatus=2
+set noshowmode 
+let g:lightline = { 'colorscheme': 'PaperColor' }
 
 " general configs
 syntax enable
