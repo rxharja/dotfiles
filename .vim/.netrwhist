@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/redonxharja/.config/alacritty'
+let g:netrw_dirhist_7='/Users/redonxharja/.config'
+let g:netrw_dirhist_6='/Users/redonxharja/.config/alacritty'
+let g:netrw_dirhist_5='/Users/redonxharja/.config/xbuild'
+let g:netrw_dirhist_4='/Users/redonxharja/Music'
+let g:netrw_dirhist_3='/Users/redonxharja/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_2='/Users/redonxharja/.vim/bundle/vim-hexcolor'
+let g:netrw_dirhist_1='/'
+let g:netrw_dirhist_0='/Users/redonxharja/Public'
+let g:netrw_dirhist_9='/Users/redonxharja'
