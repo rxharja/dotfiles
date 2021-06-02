@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+#scripting loading
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
 # bar settings
 yabai -m config status_bar                   off
 yabai -m config status_bar_text_font         "Helvetica Neue:Bold:12.0"
@@ -39,11 +43,11 @@ yabai -m config window_topmost               off
 
 # general space settings
 yabai -m config layout                       float
-yabai -m config top_padding                  15
-yabai -m config bottom_padding               15
-yabai -m config left_padding                 15
-yabai -m config right_padding                15
-yabai -m config window_gap                   15
+yabai -m config top_padding                  20
+yabai -m config bottom_padding               20
+yabai -m config left_padding                 20
+yabai -m config right_padding                20
+yabai -m config window_gap                   20
 
 # Float Windows
 yabai -m rule --add app=Finder manage=off

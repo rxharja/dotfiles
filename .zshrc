@@ -41,7 +41,7 @@ CASE_SENSITIVE="true"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -50,7 +50,7 @@ CASE_SENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
@@ -122,8 +122,20 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 #alias ls='ls -G'
-#
+#alias ls='ls --color'
 #alias ll='ls -lG'
+alias vim='nvim'
+
+# psSh config
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+alias ls="ptls"
+alias pwd="ptpwd"
+alias mkdir="ptmkdir"
+alias touch="pttouch"
+alias cp="ptcp"
 
 docker-remove-all() {
   docker stop $(docker ps -a -q)
@@ -131,5 +143,4 @@ docker-remove-all() {
   docker rmi $(docker images -a -q) 
 }
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
+alias luamake=/Users/redonxharja/.config/lua-language-server/3rd/luamake/luamake
